@@ -7,7 +7,7 @@ diff /tmp/$$-ans /tmp/$$-result || exit 1
 
 echo "test1:Faild"
 echo "引数がありません" > /tmp/$$-ans
-./GCF.sh > /tmp/$$-result
+./GCF.sh 1 > /tmp/$$-result
 diff /tmp/$$-ans /tmp/$$-result || exit 1
 
 
