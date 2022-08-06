@@ -7,5 +7,4 @@ jobs:
     - uses: actions/checkout@v2
 
     - name: run script
-      working-directory: ~/
       run: sh ./GCF-test.sh
