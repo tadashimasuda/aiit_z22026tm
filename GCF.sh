@@ -4,7 +4,7 @@ input1=$1
 input2=$2
 
 if [ $# -ne 2 ]; then
- echo "引数がありません"
+ echo "Error"
  exit 1
 fi
 
