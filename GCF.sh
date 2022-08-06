@@ -3,6 +3,17 @@
 input1=$1
 input2=$2
 
+if [ $# -ne 2 ]; then
+ echo "引数がありません" 1>&2
+ exit 1
+fi
+
+expr $1 + $2 > /dev/null 2>&1
+if [ $? -ge 2 ]; then
+ echo "Error"
+ exit 1
+fi
+
 if [ "$input1" -lt "$input2" ]; then
  tmp=$input1
  input1=$input2
