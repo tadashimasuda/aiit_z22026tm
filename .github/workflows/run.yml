@@ -4,4 +4,4 @@ jobs:
  check-bats-version:
   runs-on: ubuntu-latest
   steps:
-   - run: sh ~/kadai4/GCF-test.sh
+   - run: sh ./GCF-test.sh
