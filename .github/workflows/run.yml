@@ -7,4 +7,4 @@ jobs:
     - uses: actions/checkout@v2
 
     - name: run script
-      run: sh ./GCF-test.sh
+      run: sh ./GCD-test.sh
